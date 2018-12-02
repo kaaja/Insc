@@ -1,0 +1,128 @@
+<!--
+Automatically generated HTML file from DocOnce source
+(https://github.com/hplgit/doconce/)
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/hplgit/doconce/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Distribution of sum">
+
+<title>Distribution of sum</title>
+
+
+<style type="text/css">
+/* bloodish style */
+
+body {
+  font-family: Helvetica, Verdana, Arial, Sans-serif;
+  color: #404040;
+  background: #ffffff;
+}
+h1 { font-size: 1.8em;  color: #8A0808; }
+h2 { font-size: 1.6em;  color: #8A0808; }
+h3 { font-size: 1.4em;  color: #8A0808; }
+h4 { color: #8A0808; }
+a { color: #8A0808; text-decoration:none; }
+tt { font-family: "Courier New", Courier; }
+/* pre style removed because it will interfer with pygments */
+p { text-indent: 0px; }
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+p.caption { width: 80%; font-style: normal; text-align: left; }
+hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+
+div { text-align: justify; text-justify: inter-word; }
+</style>
+
+
+</head>
+
+<!-- tocinfo
+{'highest level': 1, 'sections': [('', 1, None, '___sec0')]}
+end of tocinfo -->
+
+<body>
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "AMS"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+    
+<!-- ------------------- main content ---------------------- -->
+
+
+
+<center><h1>Distribution of sum</h1></center>  <!-- document title -->
+
+<p>
+<!-- author(s): DATE: Dec 2, 2018 -->
+
+<center>
+<b>DATE: Dec 2, 2018</b> 
+</center>
+
+<p>
+<!-- institution(s) -->
+
+<br>
+<p>
+<center><h4>Dec 2, 2018 </h4></center> <!-- date -->
+<br>
+<p>
+<!-- !split --><br><br><br><br><br><br><br><br><br><br>
+
+<h1><div id="___sec0"></div></h1>
+I am trying to prove 
+
+$$
+\begin{align}
+	\sigma \sum_{i=1}^K \epsilon_i \sim \mathcal{N}(0,\sigma^2 K),
+\label{_auto1}
+\end{align}
+$$
+
+<p>
+when \( \epsilon_i \sim \mathcal{N}(0,1) \).
+
+<p>
+I get
+
+$$
+\begin{align}
+	\mathrm{Var} (\sigma \sum_{i=1}^K \epsilon_i) &= \sigma^2 \mathrm{Var} (\sum_{i=1}^K \epsilon_i)
+\label{_auto2}\\
+&=\sigma^2 \sum_{i=1}^K \mathrm{Var}(\epsilon_i)
+\label{_auto3}\\
+&=\sigma^2  K \mathrm{Var}(\epsilon_i)
+\label{_auto4}\\
+&=\sigma^2  K 
+\label{_auto5}
+\end{align}
+$$
+
+<p>
+Question:
+1) The switch of the sum and the variance is only possible when the \( \epsilon \)'s are independent?
+
+<p>
+
+<!-- ------------------- end of main content --------------- -->
+
+
+</body>
+</html>
+    
+
